@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #f1f2f6;
+}
+
+/* CONTAINER */
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+/* HEADER */
+.header {
+    background: #333;
+    color: white;
+    padding: 20px 30px;
+    border-radius: 12px;
+    margin-top: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* LOGO */
+.logo {
+    font-family: 'Imperial Script', cursive;
+    font-size: 40px;
+}
+
+/* NAV */
+.nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+
+/* ACTIVE MENU */
+.nav a.active,
+.nav a:hover {
+    color: #ff5e3a;
+}
+
+/* TITLE */
+.title {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 28px;
+}
+
+/* LINE */
+.line {
+    width: 80%;
+    margin: 10px auto;
+    border: 1px solid #ddd;
+}
+
+/* PRODUK ROW */
+.produk-row {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 20px 0;
+}
+
+/* PRODUK IMAGE */
+.produk-img {
+    width: 120px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* CARD */
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    width: 80%;
+    margin: 30px auto;
+    text-align: center;
+
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+    color: #ff5e3a;
+}
+
+/* FOOTER */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
